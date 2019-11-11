@@ -1,7 +1,11 @@
 from modules import utils
 from modules import operations
+#from modules.bank_account_variables import money_slips
+#from modules.open_file_bank import load_bank_data
 
 def main():    
+    #load_bank_data()
+    #print(money_slips)
     utils.header()    
     account_auth=operations.auth_account()
     if account_auth:

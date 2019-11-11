@@ -1,6 +1,6 @@
 #from modules import bank_account_variables
 import getpass
-from modules.bank_account_variables import accounts_list,money_slips
+from bank_account_variables import accounts_list,money_slips
 
 def do_operation(option_typed,account_auth):
     if(option_typed == '1'):
